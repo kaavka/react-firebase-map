@@ -1,4 +1,4 @@
-import React, {useEffect, useMemo, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import { CENTER, LIBRARIES } from "./utils/constants";
 import {addMark, changeMark, deleteAllMarks, deleteMark, getMarks} from './fireBase/fireBase'
